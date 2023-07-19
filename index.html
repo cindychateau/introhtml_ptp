@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!-- Nos indica que usamos HTML5 -->
+<html lang="es"> <!-- nos indica el idioma -->
+<head>
+    <meta charset="UTF-8"> <!-- Caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro a HTML</title> <!-- Título de la pestaña -->
+    <link rel="icon" type="image/x-icon" href="images/gatito.jpg"> <!-- Favicon -->
+</head>
+<body>
+    <h1>Título H1</h1> <!-- Solo tener un H1 -->
+    <h2>Título H2</h2>
+    <h3>Título H3</h3>
+    <h4>Título H4</h4>
+    <h5>Título H5</h5>
+    <h6>Título H6</h6>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati cupiditate itaque iure dolores expedita.
+    </p>
+
+    <a href="http://google.com" target="_blank" >
+        Ir a Google
+    </a>
+
+    <p>
+        Etiquetas: <strong>Negritas</strong> y etiqueta <em>Énfasis</em>
+    </p>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Práctica de indentación</li>
+        <li>Formulario de Registro</li>
+        <li>Blog Ficticio</li>
+    </ol>
+
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>Música</li>
+        <li>Leer</li>
+        <li>Jugar videojuegos</li>
+        <li>
+            <ol>
+                <li>Videojuegos de Compu</li>
+                <li>Videojuegos de Consola</li>
+                <li>Videojuegos de Celular</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>Lista con enlaces</h2>
+    <ol>
+        <li><a href="http://google.com">Enlace 1</a></li>
+        <li><a href="http://codingdojo.com">Enlace 2</a></li>
+        <li><a href="http://facebook.com">Enlace 3</a></li>
+    </ol>
+
+    <img src="images/gatito.jpg" alt="Imagen de Gatito" >
+
+    <table>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columna 1.1</td>
+                <td>Columna 1.2</td>
+                <td>Columna 1.3</td>
+            </tr>
+            <tr>
+                <td>Columna 2.1</td>
+                <td>Columna 2.2</td>
+                <td>Columna 2.3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="/accion" method="post" >
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="input_texto" >
+            <input type="number" name="input_numeral" >
+            <input type="password" name="input_password" >
+            <input type="date" name="input_date" >
+        </div>
+        <div>
+            <input type="radio" name="estado_civil" value="casado" id="id_casado">
+            <label for="id_casado">Casado</label>
+            <br>
+            <input type="radio" name="estado_civil" value="soltero" id="id_soltero">
+            <label for="id_soltero">Soltero</label>
+        </div>
+        <div>
+            <input type="checkbox" name="aceptar_terminos" id="id_terminos">
+            <label for="id_terminos">Aceptar términos y condiciones</label>
+        </div>
+        <div>
+            <textarea name="comentario" cols="50" rows="20" ></textarea>
+        </div>
+        <div>
+            <select>
+                <option value="MX" >México</option>
+                <option value="CH">Chile</option>
+                <option value="COL">Colombia</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar" >
+            <!-- <button type="submit" > -->
+        </div>
+    </form>
+    <a href="http://google.com">
+        <img src="images/gatito_small.jpg" alt="Img gatito">
+    </a>
+</body>
+</html>
