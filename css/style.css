@@ -156,3 +156,31 @@ p {
     height: 60px;
 }
 
+.inline {
+    display: inline; /*Me despliega los elementos en una sola línea. PERO no puedo dar tamaño*/
+}
+
+.block {
+    display: block; /*Me despliega los elementos como bloque, es decir que NO puede haber nada en ese espacio/fila*/
+}
+
+.inline-block {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+#div1 {
+    width: 100px;
+    height: 150px;
+}
+
+#div2 {
+    height: 300px;
+}
+
+#div3 {
+    height: 80px;
+}
+
