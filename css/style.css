@@ -1,6 +1,7 @@
 /*
 BASICOS
 
+etiqueta
 elemento {
     propiedad: valor;
 }
@@ -24,6 +25,10 @@ elemento {
 
 h2 {
     color: red;
+}
+
+#titulo_h3 {
+    background-color: green;
 }
 
 .blue {
@@ -103,3 +108,51 @@ input, textarea {
     background-size: 100%; /*auto: tamaño original; cover: estirar verticalmente; 100% estirar horizontalmente*/
     background-repeat: no-repeat;
 }
+
+.contenedor2 > p {
+    border: 3px solid green;
+}
+
+p {
+    color: red;
+}
+
+.box_model {
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    margin: 10px; /*Margen a los 4 lados*/
+    /*margin: 10px 100px - ArribaAbajo IzqDer*/
+    /*margin: Arr Der Abaj Izq */
+    margin-left: 100px;
+    /*margin-top, margin-right, margin-bottom, margin-left*/
+    padding: 20px;
+    border: 2px solid black;
+    /*Cosas que no son de box model*/
+    margin: 10px auto;
+    /* border-radius: 50%; */
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 5px;
+}
+
+.tamano1 {
+    background-color: gray;
+    width: 600px;
+    height: 50px;
+    border: 1px solid white;
+    overflow: hidden; /*scroll*/
+}
+
+.prueba_overflow {
+    background-color: black;
+    width: 400px;
+    height: 60px;
+}
+
