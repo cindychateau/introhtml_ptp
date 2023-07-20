@@ -5,18 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro a HTML</title> <!-- Título de la pestaña -->
     <link rel="icon" type="image/x-icon" href="images/gatito.jpg"> <!-- Favicon -->
+    <!-- Enlace con CSS -->
+    <link rel="stylesheet" href="css/style.css" >
+
 </head>
 <body>
     <h1>Título H1</h1> <!-- Solo tener un H1 -->
     <h2>Título H2</h2>
-    <h3>Título H3</h3>
+    <h3 class="blue border">Título H3</h3>
     <h4>Título H4</h4>
-    <h5>Título H5</h5>
+    <h5 id="titulo_h5">Título H5</h5>
     <h6>Título H6</h6>
 
-    <p>
+    <p class="blue">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati cupiditate itaque iure dolores expedita.
     </p>
+
+    <div class="contenedor">
+        <p>
+            ¡Este es el párrafo hijo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus laboriosam numquam tenetur ipsum illum, voluptates minima ratione cumque repudiandae consequatur aspernatur qui hic pariatur laudantium distinctio accusamus! Itaque, quam?
+        </p>
+    </div>
+
+    <div class="contenedor2">
+        <p>
+            ¡Este es el párrafo hijo!
+        </p>
+        <div>
+            <p>
+                ¡Este es el párrafo nieto!
+            </p>
+        </div>
+        <p>
+            ¡Este es otro hijo!
+        </p>
+    </div>
 
     <a href="http://google.com" target="_blank" >
         Ir a Google
@@ -114,5 +137,17 @@
     <a href="http://google.com">
         <img src="images/gatito_small.jpg" alt="Img gatito">
     </a>
+
+    <p id="parrafo_ejemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eaque, voluptates exercitationem suscipit quisquam explicabo iste quos cum pariatur qui quam in corporis soluta quod mollitia voluptatum at non vel.
+    </p>
+    <div class="pruebas_tamanos">
+
+    </div>
+    <div class="div_background">
+
+    </div>
+
+
 </body>
 </html>
